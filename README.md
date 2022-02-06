@@ -4,7 +4,7 @@
 # HUFFMAN CODING PROJECT
 
 Implementation of Huffman coding algorithm in C.<br>
-Compressing text files into binary files, and decompressing them back into text files.
+Compressing files and decompressing using the Huffman algorithm.
 
 ## INSTALLATION
 
@@ -31,16 +31,16 @@ $   make install
 
 ## EXECUTION
 
-To **compress** a file (.txt), run :
+To **compress** a file, run :
 ```bash
-$   huffman -c <file.txt> <encoded.hff>
+$   huffman -c <file> <encoded.hff>
 ```
 To **decompress** a file (.hff), run :
 ```bash
-$   huffman -d <encoded.hff> <decoded.txt>
+$   huffman -d <encoded.hff> <decoded>
 ```
 **_NOTE:_**<br>
-`file.txt`,`encoded.hff`,`decoded.txt` are example files.
+`file`,`encoded.hff`,`decoded` are example files.
 
 ## FEATURES
 
