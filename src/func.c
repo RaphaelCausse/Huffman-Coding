@@ -1,8 +1,7 @@
-/**
- * Source file : func.c
+/* Source file : func.c
  * MUNOZ Melvyn, CAUSSE Raphael
  * CY TECH PREING 2 MI
- */
+**/
 
 #include "include/func.h"
 
@@ -28,7 +27,7 @@ void version() {
 
 FILE *open_file(const char *__filename, const char *__mode) {
     /* Open file and create a new stream for it. */
-    FILE *file = fopen(__filename, "r");
+    FILE *file = fopen(__filename, __mode);
     if (file == NULL) {
         fprintf(stderr, "\033[31m\x1b[1mError:\x1b[0m\033[0m \x1b[1m%s:\x1b[0m %s.\n\n", __filename, strerror(errno));
         exit(EXIT_FAILURE);

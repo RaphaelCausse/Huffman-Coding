@@ -1,8 +1,7 @@
-/**
- * Header file : encode.h
+/* Header file : encode.h
  * MUNOZ Melvyn, CAUSSE Raphael
  * CY TECH PREING 2 MI
- */
+**/
 
 #ifndef ENCODE_H
 #define ENCODE_H

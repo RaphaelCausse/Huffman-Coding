@@ -1,8 +1,7 @@
-/**
- * Header file : func.h
+/* Header file : func.h
  * MUNOZ Melvyn, CAUSSE Raphael
  * CY TECH PREING 2 MI
- */
+**/
 
 #ifndef FUNC_H
 #define FUNC_H

@@ -1,8 +1,7 @@
-/**
- * Source file : decode.c
+/* Source file : decode.c
  * MUNOZ Melvyn, CAUSSE Raphael
  * CY TECH PREING 2 MI
- */
+**/
 
 #include "include/func.h"
 #include "include/encode.h"

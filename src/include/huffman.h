@@ -1,8 +1,7 @@
-/**
- * Header file : huffman.h
+/* Header file : huffman.h
  * MUNOZ Melvyn, CAUSSE Raphael
  * CY TECH PREING 2 MI
- */
+**/
 
 #ifndef HUFFMAN_H
 #define HUFFMAN_H

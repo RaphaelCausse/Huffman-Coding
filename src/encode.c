@@ -1,8 +1,7 @@
-/**
- * Source file : encode.c
+/* Source file : encode.c
  * MUNOZ Melvyn, CAUSSE Raphael
  * CY TECH PREING 2 MI
- */
+**/
 
 #include "include/func.h"
 #include "include/encode.h"
