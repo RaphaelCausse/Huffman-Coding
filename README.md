@@ -43,9 +43,9 @@ To **decompress** a file (.hff), run :
 
 ## FEATURES
 
-To get **information and help**, run :
+**Help** message :
 ```bash
-./bin/huffman --help
+./bin/huffman -h
 ```
 To **clean** the entire project directory, run :
 ```bash
