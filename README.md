@@ -9,26 +9,21 @@ Compressing files and decompressing using the Huffman algorithm.
 
 ## INSTALLATION
 
-Make sure you have installed **Git**. If not :
-* Linux : https://youtu.be/PLQQ3tJwBJg<br>
-* Windows : https://youtu.be/2j7fD92g-gE<br>
-
-**Clone** this repository on your desktop :
+**Clone** this repository:
 ```bash
-$   cd Desktop
-$   git clone https://github.com/RaphaelCausse/Huffman_Coding.git
+git clone https://github.com/RaphaelCausse/Huffman_Coding.git
+```
+**Move** to the cloned folder :
+```bash
+cd Huffman_Coding
 ```
 <br>
 
 ## COMPILATION
 
-**Move** to the cloned folder :
-```bash
-$   cd Huffman_Coding
-```
 **Compile** the project using my Makefile :
 ```bash
-$   make install
+make
 ```
 <br>
 
@@ -36,11 +31,11 @@ $   make install
 
 To **compress** a file, run :
 ```bash
-$   huffman -c <file> <encoded.hff>
+./bin/huffman -c <file> <encoded.hff>
 ```
 To **decompress** a file (.hff), run :
 ```bash
-$   huffman -d <encoded.hff> <decoded>
+./bin/huffman -d <encoded.hff> <decoded>
 ```
 **_NOTE:_**<br>
 `file`,`encoded.hff`,`decoded` are example files.
@@ -50,11 +45,11 @@ $   huffman -d <encoded.hff> <decoded>
 
 To get **information and help**, run :
 ```bash
-$   huffman --help
+./bin/huffman --help
 ```
 To **clean** the entire project directory, run :
 ```bash
-$   make clean
+make clean
 ```
 To **visualize** the binary file, you can use "Hex Editor" extension on Visual Studio Code from Microsoft.
 <br><br>
