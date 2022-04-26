@@ -10,11 +10,11 @@ Compressing files and decompressing using the Huffman algorithm.
 ## INSTALLATION
 
 **Clone** this repository:
-```bash
+```
 git clone https://github.com/RaphaelCausse/Huffman_Coding.git
 ```
 **Move** to the cloned folder :
-```bash
+```
 cd Huffman_Coding
 ```
 <br>
@@ -22,7 +22,7 @@ cd Huffman_Coding
 ## COMPILATION
 
 **Compile** the project using my Makefile :
-```bash
+```
 make
 ```
 <br>
@@ -30,25 +30,25 @@ make
 ## EXECUTION
 
 To **compress** a file, run :
-```bash
+```
 ./bin/huffman -c <file> <encoded.hff>
 ```
 To **decompress** a file (.hff), run :
-```bash
+```
 ./bin/huffman -d <encoded.hff> <decoded>
 ```
 **_NOTE:_**<br>
-`file`,`encoded.hff`,`decoded` are example files.
+`file`, `encoded.hff`, `decoded` are example files.
 <br><br>
 
 ## FEATURES
 
 **Help** message :
-```bash
+```
 ./bin/huffman -h
 ```
 To **clean** the entire project directory, run :
-```bash
+```
 make clean
 ```
 To **visualize** the binary file, you can use "Hex Editor" extension on Visual Studio Code from Microsoft.
