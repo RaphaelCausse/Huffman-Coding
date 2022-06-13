@@ -12,11 +12,11 @@ Compressing files and decompressing using the Huffman algorithm, priority queues
 
 **Clone** this repository:
 ```
-git clone https://github.com/RaphaelCausse/Huffman_Coding.git
+git clone https://github.com/RaphaelCausse/Huffman-Coding.git
 ```
 **Move** to the cloned directory :
 ```
-cd Huffman_Coding
+cd Huffman-Coding
 ```
 <br>
 
