@@ -3,8 +3,9 @@
 
 # HUFFMAN CODING PROJECT
 
-Implementation of Huffman coding algorithm in C.<br>
-Compressing files and decompressing using the Huffman algorithm.
+Implementation of Huffman coding algorithm in C.
+
+Compressing files and decompressing using the Huffman algorithm, priority queues and binary trees.
 <br><br>
 
 ## INSTALLATION
@@ -13,7 +14,7 @@ Compressing files and decompressing using the Huffman algorithm.
 ```
 git clone https://github.com/RaphaelCausse/Huffman_Coding.git
 ```
-**Move** to the cloned folder :
+**Move** to the cloned directory :
 ```
 cd Huffman_Coding
 ```
@@ -29,11 +30,11 @@ make
 
 ## EXECUTION
 
-To **compress** a file, run :
+**Compress** a file :
 ```
 ./bin/huffman -c <file> <encoded.hff>
 ```
-To **decompress** a file (.hff), run :
+**Decompress** a file (.hff), run :
 ```
 ./bin/huffman -d <encoded.hff> <decoded>
 ```
@@ -43,15 +44,15 @@ To **decompress** a file (.hff), run :
 
 ## FEATURES
 
-**Help** message :
+Display **help** message :
 ```
 ./bin/huffman -h
 ```
-To **clean** the entire project directory, run :
+**Clean** the entire project directory, run :
 ```
 make clean
 ```
-To **visualize** the binary file, you can use "Hex Editor" extension on Visual Studio Code from Microsoft.
+**Visualize** the binary file, you can use "Hex Editor" extension on Visual Studio Code from Microsoft.
 <br><br>
 
 ## TESTS
@@ -61,5 +62,6 @@ You **can test** the project with the files in the "tests" subdirectory.
 
 ## AUTHORS
 
-Melvyn MUNOZ and Raphael CAUSSE, from CY TECH.<br>
+Melvyn MUNOZ and Raphael CAUSSE, from CY TECH.
+
 11/2021, developped on Linux Ubuntu and Manjaro, Visual Studio Code.
